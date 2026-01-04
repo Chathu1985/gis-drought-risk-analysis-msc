@@ -34,10 +34,13 @@ bivariate correlation, cloud-based open-source.
 ## Research Aims
 The primary aims of this research were to:
 • Develop a conceptual and methodological framework for assessing drought
-indicators and indices;
-• Derive drought-related parameters using the Google Earth Engine platform;
+indicators and indices
+
+• Derive drought-related parameters using the Google Earth Engine platform
+
 • Calculate the hazard, exposure, and vulnerability indicators and construct
-a composite Drought Risk Index for the Southeast Asian region;
+a composite Drought Risk Index for the Southeast Asian region
+
 • Examine relationships among the indicators and analyse the statistical
 distribution of drought.
 
