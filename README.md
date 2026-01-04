@@ -84,8 +84,9 @@ distribution (WorldPop). Data processing and extraction were primarily conducted
 using Google Earth Engine.
 
   [View detailed dataset sources →](data/datasets.md)
+  
 
-
+ ## Drought indices
   • Drought indices were computed using established formulations (e.g. SPI, SMI),
   with a composite drought risk index derived through weighted integration of
   standardised indicators.
