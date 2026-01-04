@@ -28,34 +28,58 @@ Condition Index (VCI) and the Temperature Condition Index (TCI). VCI is derived
 from NDVI, while TCI is derived from LST (Ekundayo et al., 2020; Zuhro, Tambunan &
 Marko, 2020).
 
-### Vegetation Condition Index (VCI)
-\[
-VCI = \frac{NDVI_i - NDVI_{min}}{NDVI_{max} - NDVI_{min}} \times 100
-\]
+## Vegetation Condition Index (VCI)
 
-### Temperature Condition Index (TCI)
-\[
-TCI = \frac{LST_{min} - LST_i}{LST_{max} - LST_{min}} \times 100
-\]
+VCI is calculated as:
 
-### Vegetation Health Index (VHI)
-\[
-VHI = 0.5 \times VCI + 0.5 \times TCI
-\]
+VCI = (NDVIᵢ − NDVIₘᵢₙ) / (NDVIₘₐₓ − NDVIₘᵢₙ) × 100
 
-**Where:**
-- \(NDVI_i\): NDVI value for pixel/location \(i\)  
-- \(NDVI_{min}, NDVI_{max}\): minimum and maximum NDVI values over the reference period  
-- \(LST_i\): LST value for pixel/location \(i\)  
-- \(LST_{min}, LST_{max}\): minimum and maximum LST values over the reference period  
 
+## Temperature Condition Index (TCI)
+
+TCI is calculated as:
+
+TCI = (LSTₘᵢₙ − LSTᵢ) / (LSTₘₐₓ − LSTₘᵢₙ) × 100
+
+
+## Vegetation Health Index (VHI)
+
+VHI is calculated as the weighted average of VCI and TCI:
+
+VHI = 0.5 × VCI + 0.5 × TCI
+
+
+### Where:
+- NDVIᵢ : NDVI value for pixel/location *i*
+- NDVIₘᵢₙ , NDVIₘₐₓ : minimum and maximum NDVI values over the reference period
+- LSTᵢ : land surface temperature value for pixel/location *i*
+- LSTₘᵢₙ , LSTₘₐₓ : minimum and maximum LST values over the reference period
+  
+
+### Normalisation and Composite Indices
+
+Indicator values were normalised using a min–max scaling approach, applying
+different formulations depending on whether the relationship with drought
+conditions was positive or negative (Ortega-Gaucin et al., 2021).
+
+Positive relationship:
+zᵢ = (xᵢ − xₘᵢₙ) / (xₘₐₓ − xₘᵢₙ)
+
+Negative relationship:
+zᵢ = (xₘᵢₙ − xᵢ) / (xₘₐₓ − xₘᵢₙ)
+
+The normalised indicators were subsequently aggregated to derive composite
+indices, including the Drought Hazard Index (DHI), Drought Exposure Index (DEI),
+and Drought Vulnerability Index (DVI), calculated as the mean of the normalised
+variables.
 
 ## Composite Drought Risk Index
-A composite drought risk index was generated using a weighted overlay
-approach:
+A composite drought risk index was generated using an equal-weighted overlay
+approach, where all indicators contributed equally to the final index:
 
 DRI = Σ (wᵢ × Iᵢ)
 
 where:
-• Iᵢ represents the standardised drought indicators
-• wᵢ denotes the relative weights assigned to each indicator
+• Iᵢ represents the standardised drought indicators  
+• wᵢ denotes the indicator weights, with equal weights assigned to all indicators
+  (wᵢ = 1/n)
