@@ -75,8 +75,40 @@ distribution of drought.
 • Thematic maps designed to support environmental assessment, planning, and resource
   management.
 
+  ## Methodological Framework Diagram
+A conceptual workflow illustrating the GIS-based drought risk assessment process.
+
+[View methodological framework diagram →](diagrams/Methodology.png)
+
 • A transferable geospatial framework that can be adapted for drought risk assessment
   in other regions.
+  
+
+## Selected Spatial Results
+
+### Region Map
+![South East Asia Region](figures/South East Asia Countries.png)
+
+### Drought Risk Index Maps
+
+#### Drought Risk Index 2015
+![Drought Risk Index Map 2015](figures/Drought Risk South East Asia 2015.PNG)
+
+#### Drought Risk Index 2020
+![Drought Risk Index Map 2020](figures/Drought Risk South East Asia 2020.PNG)
+
+### Population Density South East Asia
+![South East Asia Population Density Map](figures/South East Asia Population Density 2020.PNG)
+
+
+## Statistical Analysis
+
+### Distribution of Drought Indicators by Region 2015
+![Violin Plot of Drought Indicators](plots/Drought hazard density and spatial distribution across countries 2015.png)
+
+### Distribution of Drought Indicators by Region 2020
+![Violin Plot of Drought Indicators](plots/Drought hazard density and spatial distribution across countries 2020.png)
+
 
 
 
