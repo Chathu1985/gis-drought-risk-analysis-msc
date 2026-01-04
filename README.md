@@ -87,18 +87,18 @@ A conceptual workflow illustrating the GIS-based drought risk assessment process
 ## Selected Spatial Results
 
 ### Region Map
-![South East Asia Region](figures/South East Asia Countries.png)
+![South East Asia Region](figures/South_East_Asia_Countries.png)
 
 ### Drought Risk Index Maps
 
 #### Drought Risk Index 2015
-![Drought Risk Index Map 2015](figures/Drought Risk South East Asia 2015.PNG)
+![Drought Risk Index Map 2015](figures/Drought_Risk_South_East_Asia_2015.PNG)
 
 #### Drought Risk Index 2020
-![Drought Risk Index Map 2020](figures/Drought Risk South East Asia 2020.PNG)
+![Drought Risk Index Map 2020](figures/Drought_Risk_South_East_Asia_2020.PNG)
 
 ### Population Density South East Asia
-![South East Asia Population Density Map](figures/South East Asia Population Density 2020.PNG)
+![South East Asia Population Density Map](figures/South_East_Asia_Population_Density_2020.PNG)
 
 
 ## Statistical Analysis
@@ -107,7 +107,7 @@ A conceptual workflow illustrating the GIS-based drought risk assessment process
 ![Violin Plot of Drought Indicators](plots/Drought_hazard_density_and_spatial_distribution_across_countries_2015.png)
 
 ### Distribution of Drought Indicators by Region 2020
-![Violin Plot of Drought Indicators](plots/Drought hazard density and spatial distribution across countries 2020.png)
+![Violin Plot of Drought Indicators](plots/Drought_hazard_density_and_spatial_distribution_across_countries_2020.png)
 
 
 
