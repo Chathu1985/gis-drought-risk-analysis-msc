@@ -75,7 +75,8 @@ distribution of drought.
 • Thematic maps designed to support environmental assessment, planning, and resource
   management.
 
-  ## Methodological Framework Diagram
+
+## Methodological Framework Diagram
 A conceptual workflow illustrating the GIS-based drought risk assessment process.
 
 [View methodological framework diagram →](diagrams/Methodology.png)
@@ -84,10 +85,13 @@ A conceptual workflow illustrating the GIS-based drought risk assessment process
   in other regions.
   
 
+
 ## Selected Spatial Results
 
 ### Region Map
 ![South East Asia Region](figures/South_East_Asia_Countries.png)
+
+
 
 ### Drought Risk Index Maps
 
@@ -99,6 +103,7 @@ A conceptual workflow illustrating the GIS-based drought risk assessment process
 
 ### Population Density South East Asia
 ![South East Asia Population Density Map](figures/South_East_Asia_Population_Density_2020.PNG)
+
 
 
 ## Statistical Analysis
