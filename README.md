@@ -73,6 +73,19 @@ A conceptual workflow illustrating the GIS-based drought risk assessment process
 
 • A transferable geospatial framework that can be adapted for drought risk assessment
   in other regions.
+
+ 
+  ## Data Sources
+The drought risk assessment utilised multiple publicly available remote sensing and
+climate datasets, including precipitation (CHIRPS), drought indices (TerraClimate),
+soil moisture (SMAP), vegetation condition (MODIS NDVI), land surface temperature
+(MODIS LST), land use/land cover (Copernicus), elevation (SRTM), and population
+distribution (WorldPop). Data processing and extraction were primarily conducted
+using Google Earth Engine.
+
+  [View detailed dataset sources →](data/datasets.md)
+
+
   • Drought indices were computed using established formulations (e.g. SPI, SMI),
   with a composite drought risk index derived through weighted integration of
   standardised indicators.
