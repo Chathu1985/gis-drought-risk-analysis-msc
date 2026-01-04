@@ -43,14 +43,12 @@ distribution of drought.
 
 ## Methodological Framework
 • Remote sensing and climatic datasets were acquired and preprocessed using
-  :contentReference[oaicite:0]{index=0} to support
-  large-scale spatiotemporal analysis.
+  Google Earth Engine to support large-scale spatiotemporal analysis.
 
 • Key drought-related indicators were derived from environmental and climate variables.
 
 • All indicators were integrated and analysed within desktop GIS environments,
-  including :contentReference[oaicite:1]{index=1} and
-  :contentReference[oaicite:2]{index=2}.
+  including ArcGIS Pro and QGIS.
 
 • Indicators were standardised and weighted according to their relative contribution
   to drought risk.
