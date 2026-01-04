@@ -1,9 +1,13 @@
 # Dataset Sources
 
-| Dataset | Variable | Source | Spatial Resolution | Temporal Coverage |
-|-------|---------|--------|--------------------|------------------|
-| NDVI | Vegetation condition | MODIS | 250 m | 2000–2020 |
-| LST | Land surface temperature | MODIS | 1 km | 2000–2020 |
-| Precipitation | Rainfall | CHIRPS | 0.05° | 1981–2020 |
-| Soil Moisture | Surface moisture | ESA CCI | 0.25° | 1978–2020 |
-| Population Density | Exposure indicator | WorldPop | 100 m | 2015, 2020 |
+| Parameter / Indicator | Dataset | Source / Description | Spatial Resolution |
+|----------------------|---------|----------------------|--------------------|
+| SPI (Standardized Precipitation Index) | CHIRPS Pentad | Climate Hazards Group InfraRed Precipitation with Station Data (v2.0) | ~5 km |
+| PDSI (Palmer Drought Severity Index) | TerraClimate | Monthly climate and water balance for global terrestrial surfaces (University of Idaho) | ~4 km |
+| SMI (Soil Moisture Index) | SMAP | NASA–USDA Enhanced SMAP Global Soil Moisture Data | 10 km |
+| NDVI (Normalized Difference Vegetation Index) | MOD13A1.006 | Terra Vegetation Indices (16-Day composite) | 500 m |
+| LST (Land Surface Temperature) | MOD11A2.006 | Terra Land Surface Temperature & Emissivity (8-Day composite) | 1 km |
+| LULC (Land Use / Land Cover) | CGLS-LC100 | Copernicus Global Land Cover Layers, Collection 3 | 100 m |
+| Elevation | SRTM v4 | Shuttle Radar Topography Mission Digital Elevation Model | 90 m |
+| Population | WorldPop | Global Project Population Data | ~100 m |
+
