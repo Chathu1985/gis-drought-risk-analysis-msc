@@ -31,6 +31,9 @@ Keywords: Google Earth Engine (GEE), Drought Risk Index (DRI), drought hazard in
 (DHI), Drought Exposure Index (DEI), Drought Vulnerability Index (DVI), drought indices,
 bivariate correlation, cloud-based open-source.
 
+### Region Map
+![South East Asia Region](figures/South_East_Asia_Countries.png)
+
 ## Research Aims
 The primary aims of this research were to:
 
@@ -62,7 +65,14 @@ distribution of drought.
 
 • The resulting index was spatially classified and mapped to identify drought risk
   patterns and vulnerable regions.
+  
+## Methodological Framework Diagram
+A conceptual workflow illustrating the GIS-based drought risk assessment process.
 
+[View methodological framework diagram →](diagrams/Methodology.png)
+
+• A transferable geospatial framework that can be adapted for drought risk assessment
+  in other regions.
   • Drought indices were computed using established formulations (e.g. SPI, SMI),
   with a composite drought risk index derived through weighted integration of
   standardised indicators.
@@ -83,22 +93,8 @@ distribution of drought.
   management.
 
 
-## Methodological Framework Diagram
-A conceptual workflow illustrating the GIS-based drought risk assessment process.
-
-[View methodological framework diagram →](diagrams/Methodology.png)
-
-• A transferable geospatial framework that can be adapted for drought risk assessment
-  in other regions.
-  
-
 
 ## Selected Spatial Results
-
-### Region Map
-![South East Asia Region](figures/South_East_Asia_Countries.png)
-
-
 
 ### Drought Risk Index Maps
 
