@@ -21,7 +21,7 @@ where:
 • SM is the observed soil moisture
 • SM_min and SM_max represent minimum and maximum soil moisture values
 
-## Vegetation Health Index (VHI)
+### Vegetation Health Index (VHI)
 
 The Vegetation Health Index (VHI) was computed as the average of the Vegetation
 Condition Index (VCI) and the Temperature Condition Index (TCI). VCI is derived
