@@ -33,6 +33,7 @@ bivariate correlation, cloud-based open-source.
 
 ## Research Aims
 The primary aims of this research were to:
+
 • Develop a conceptual and methodological framework for assessing drought
 indicators and indices
 
