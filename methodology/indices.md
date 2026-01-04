@@ -28,14 +28,14 @@ Condition Index (VCI) and the Temperature Condition Index (TCI). VCI is derived
 from NDVI, while TCI is derived from LST (Ekundayo et al., 2020; Zuhro, Tambunan &
 Marko, 2020).
 
-## Vegetation Condition Index (VCI)
+### Vegetation Condition Index (VCI)
 
 VCI is calculated as:
 
 VCI = (NDVIᵢ − NDVIₘᵢₙ) / (NDVIₘₐₓ − NDVIₘᵢₙ) × 100
 
 
-## Temperature Condition Index (TCI)
+### Temperature Condition Index (TCI)
 
 TCI is calculated as:
 
@@ -56,7 +56,7 @@ VHI = 0.5 × VCI + 0.5 × TCI
 - LSTₘᵢₙ , LSTₘₐₓ : minimum and maximum LST values over the reference period
   
 
-### Normalisation and Composite Indices
+## Normalisation and Composite Indices
 
 Indicator values were normalised using a min–max scaling approach, applying
 different formulations depending on whether the relationship with drought
