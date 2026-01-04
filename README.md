@@ -1,8 +1,10 @@
-# GIS-Based Drought Risk Analysis 
-*MSc Dissertation: Cloud-based open-source approach for drought risk assessment: Case Study Southeast Asia*
 *© Chathurika Thilakarathna, 2026.  
 This repository documents original MSc research work. Shared for academic
 and professional reference.*
+
+# GIS-Based Drought Risk Analysis 
+*MSc Dissertation: Cloud-based open-source approach for drought risk assessment: Case Study Southeast Asia*
+
 
 ## Study Context
 This research was conducted as part of an MSc in Geospatial Science at RMIT University
