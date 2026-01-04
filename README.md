@@ -104,7 +104,7 @@ A conceptual workflow illustrating the GIS-based drought risk assessment process
 ## Statistical Analysis
 
 ### Distribution of Drought Indicators by Region 2015
-![Violin Plot of Drought Indicators](plots/Drought hazard density and spatial distribution across countries 2015.png)
+![Violin Plot of Drought Indicators](plots/Drought_hazard_density_and_spatial_distribution_across_countries_2015.png)
 
 ### Distribution of Drought Indicators by Region 2020
 ![Violin Plot of Drought Indicators](plots/Drought hazard density and spatial distribution across countries 2020.png)
