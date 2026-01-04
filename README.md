@@ -63,6 +63,13 @@ distribution of drought.
 • The resulting index was spatially classified and mapped to identify drought risk
   patterns and vulnerable regions.
 
+  • Drought indices were computed using established formulations (e.g. SPI, SMI),
+  with a composite drought risk index derived through weighted integration of
+  standardised indicators.
+  
+[View drought indices and formulations →](methodology/indices.md)
+
+
 ## Key Outputs
 • A GIS-based drought risk index integrating multiple climatic and environmental
   indicators.
