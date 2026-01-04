@@ -1,2 +1,2 @@
-# gis-drought-risk-analysis-msc
-GIS-based drought risk assessment MSc dissertation using spatial analysis and remote sensing.
+# GIS-Based Drought Risk Analysis
+GIS-based drought risk assessment MSc in Geospatial Science dissertation, RMIT University, using spatial analysis and remote sensing.
