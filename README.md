@@ -39,19 +39,7 @@ bivariate correlation, cloud-based open-source.
 ### Region Map
 ![South East Asia Region](figures/South_East_Asia_Countries.png)
 
-## Research Aims
-The primary aims of this research were to:
 
-• Develop a conceptual and methodological framework for assessing drought
-indicators and indices
-
-• Derive drought-related parameters using the Google Earth Engine platform
-
-• Calculate the hazard, exposure, and vulnerability indicators and construct
-a composite Drought Risk Index for the Southeast Asian region
-
-• Examine relationships among the indicators and analyse the statistical
-distribution of drought.
 
 ## Methodological Framework
 • Remote sensing and climatic datasets were acquired and preprocessed using
@@ -71,14 +59,6 @@ distribution of drought.
 • The resulting index was spatially classified and mapped to identify drought risk
   patterns and vulnerable regions.
   
-## Methodological Framework Diagram
-A conceptual workflow illustrating the GIS-based drought risk assessment process.
-
-[View methodological framework diagram →](diagrams/Methodology.png)
-
-• A transferable geospatial framework that can be adapted for drought risk assessment
-  in other regions.
-
  
   ## Data Sources
 The drought risk assessment utilised multiple publicly available remote sensing and
@@ -87,9 +67,6 @@ soil moisture (SMAP), vegetation condition (MODIS NDVI), land surface temperatur
 (MODIS LST), land use/land cover (Copernicus), elevation (SRTM), and population
 distribution (WorldPop). Data processing and extraction were primarily conducted
 using Google Earth Engine.
-
-  [View detailed dataset sources →](data/datasets.md)
-  
 
  ## Drought indices
   • Drought indices were computed using established formulations (e.g. SPI, SMI),
