@@ -22,7 +22,7 @@ I designed and implemented a GIS-based drought risk assessment framework by inte
 • Key drought-related indicators were derived from environmental and climate variables.
 
 • All indicators were integrated and analysed within desktop GIS environments,
-  including ArcGIS Pro and QGIS.
+  including QGIS and ArcGIS Pro.
 
 • Indicators were standardised and weighted according to their relative contribution
   to drought risk.
